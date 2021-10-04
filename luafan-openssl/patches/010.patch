@@ -12,7 +12,7 @@
      ../src/tcpd.c \
      ../src/udpd.c \
      ../src/utlua.c \
-+    ../src/openssl_hostname_validation.c \
++    \
      \
 -    -levent
 +    -levent -levent_openssl -lssl -lcrypto
