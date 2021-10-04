@@ -18,7 +18,7 @@ define Package/luafan
 	SUBMENU:=Lua
 	SECTION:=lang
 	CATEGORY:=Languages
-    DEPENDS:=+libevent2 +luafilesystem +liblua
+    DEPENDS:=+libevent2 +libevent2-core +libevent2-extra +libevent2-pthreads +libevent2-openssl +luafilesystem +liblua
 	TITLE:=LUAFAN
 endef
 
